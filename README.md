@@ -1,8 +1,6 @@
 # showrecord.aleo
 
-#### Tip: Install the [Aleo plugin](../../sublime) for `Sublime Text 3` to make `.aleo` files easy to read!
-
-## Demo
+## This Aleo Program Demo is Deployed and Tested by https://github.com/aleohq/aleo  
 
 ```bash
 ## 给自己创建coin_a测试币,amount=100
