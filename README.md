@@ -11,9 +11,7 @@ aleo run report_a "{ owner: aleo1gy9h3a9sywc7p23acd5jjt9suuh663q0fv8uegpgr36je20
 ```
 
 
-## 中文版说明：
-
-# Record资产报告小程序Program Demo
+## Record资产报告小程序Program Demo
 By Aaron(JiangHan)
 
 Aleo Program 的资产管理，资产只对Owner开放查看权限，所以Owner想要对他人出具自己拥有某资产的报告存在困难，这个小程序就是为了向某个指定的人展示自己拥有资产的方案。向对方出具报告（如果该资产已经消耗掉了，那么就无法出具报告了）
@@ -128,7 +126,7 @@ For external record, you can directly assign a report without rebuilding the res
         output r2 as coin_b_report.record;
     
 
-# 注意：
+## 注意：
 目前snarkVM的版本还不支持在一个program中定义多种record,所以上面的程序如果要测试都需要进行调整。否则部署会打印『Only one record type is allowed in the program』
 
 At present, the snarkVM version does not support defining multiple records in a program, so the above programs need to be adjusted if they are to be tested. Otherwise, the deployment will print "Only one record type is allowed in the program"
