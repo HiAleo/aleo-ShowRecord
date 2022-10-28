@@ -29,12 +29,12 @@ The following Aleo Program Demo is Deployed and Tested by https://github.com/ale
 aleo build
 ```
 
-### Mint test token, amount = 100
+Mint test token, amount = 100
 ```bash
 aleo run mint_a aleo1gy9h3a9sywc7p23acd5jjt9suuh663q0fv8uegpgr36je20xf5rsggnarq 100u64
 ```
 
-### Show the record to anther account "aleo1s5rr2mkm9ys3tk7ch7mxsa3f5az3vuvgr0h8zrhj3hpzfcqt9vqsulemeq"
+Show the record to anther account "aleo1s5rr2mkm9ys3tk7ch7mxsa3f5az3vuvgr0h8zrhj3hpzfcqt9vqsulemeq"
 ```bash
 aleo run report_a "{ owner: aleo1gy9h3a9sywc7p23acd5jjt9suuh663q0fv8uegpgr36je20xf5rsggnarq.private, gates: 0u64.private, amount: 100u64.private, custom1: 1234u64.private, _nonce: 0group.public }" aleo1s5rr2mkm9ys3tk7ch7mxsa3f5az3vuvgr0h8zrhj3hpzfcqt9vqsulemeq
 ```
