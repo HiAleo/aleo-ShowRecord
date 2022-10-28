@@ -10,7 +10,7 @@ program showrecord.aleo;
     rep_amount as u64.private;
     rep_custom1 as u64.private;
     
-  // 向r1出具自己拥有coin_a资产的报告，coin_a由于是外部的，所以不会被消耗掉
+  // Show the record to r1
   function report_a:
     input r0 as coin_a.aleo/coin_a.record;
     input r1 as address.private;
