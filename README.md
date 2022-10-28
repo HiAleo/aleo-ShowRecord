@@ -1,7 +1,8 @@
 # showrecord.aleo
 
-## Record asset report program
-In the asset management of the Aleo Program, the owner is only allowed to view the assets. Therefore, the owner has difficulty in issuing a report on his own assets to others. This program is designed to show a designated person the custom details of his own assets. Issue a report to the others (if the asset has been consumed, the report cannot be issued)
+## Overview
+This is a asset report program.
+In the asset management of the Aleo Program, the owner is only allowed to view the assets. Therefore, the owner has difficulty in issuing a report on his own assets to others. This program is designed to show a designated person the custom details of his own assets. Issue a report to the others (if the asset has been consumed, the report cannot be issued).
 
 function record_a (coin_a, other) is to show others their own coin_a's asset report
 
@@ -11,8 +12,9 @@ For external record, you can directly assign a report without rebuilding the res
 At present, the snarkVM version does not support defining multiple records in a program, so the above programs need to be adjusted if they are to be tested. Otherwise, the deployment will print "Only one record type is allowed in the program"
 
 
-## Record资产报告小程序Program
-Aleo Program 的资产管理，资产只对Owner开放查看权限，所以Owner想要对他人出具自己拥有某资产的报告存在困难，这个小程序就是为了向某个指定>的人展示自己拥有资产的方案。向对方出具报告（如果该资产已经消耗掉了，那么就无法出具报告了）
+## 概要
+这是一个资产报告小程序, 用于解决 Aleo 平台上各种隐私资产的展示问题.
+由于 Aleo 资产的隐私性，资产只对 Owner 开放查看权限，所以 Owner 想要对他人出具自己拥有某资产的报告存在困难. 这个小程序就是为了向某个指定的人展示自己拥有资产的方案。向对方出具报告（如果该资产已经消耗掉了，那么就无法出具报告了）
 
 function record_a(coin_a, other) 就是向other展示自己的 coin_a 的资产报告
 
